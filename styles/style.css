@@ -1,9 +1,23 @@
-.calender{
-    height: 600px;
-    display: grid;
-    grid-template-columns: repeat(7, 1fr);
-    grid-gap: 1em;
+h1{
+    font-size: 3em;
+    text-align: center;
 }
-.date{
-    
+.containar{
+    height: 500px;
+    border: 2px solid goldenrod;
+    display: flex;
+    /* justify-content: center;
+    align-items: stretch; */
+}
+.box{
+    width: 200px;
+    border: 2px dotted gray;
+    text-align: center;
+}
+#box-1{
+    order: 2;
+}
+#box-2{
+    order: 1;
+    flex-grow: 1;
 }
