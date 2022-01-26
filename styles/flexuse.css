@@ -1,6 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    height: 60px;
+    background-color: #d1d1d1;
+    display: flex;
+    justify-content: space-between;
+}
+nav span{
+    margin: 15px 50px 0 50px;
+}
+nav span a{
+    text-decoration: none;
+    color: black;
+    padding: 5px 5px;
+    font-size: 1.5em;
+}
+nav span a:hover{
+    background-color: #91ebd4;
+    color: white;
+    border-radius: 5px;
+}
+
+
+
+/* Login Containar */
+
 .login-containar{
     display: flex;
     justify-content: center;
+    margin-top: 60px;
 }
 .login-form{
     display: flex;
@@ -14,7 +44,9 @@
 }
 .login-form h2{
     text-align: center;
-    font-size: 40px;
+    font-size: 50px;
+    margin-bottom: 40px;
+    padding: 10px;
 }
 .login-form input{
     margin: 5px 10px;
@@ -29,4 +61,7 @@
     font-size: 20px;
     border-radius: 5px;
     background-color: cadetblue;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
 }
