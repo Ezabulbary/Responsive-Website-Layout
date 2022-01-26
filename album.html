@@ -22,12 +22,13 @@
             justify-content: center;
         }
         .photo-frame{
-            width: 300px;
+            width: 350px;
             height: 188px;
             border: 2px solid khaki;
             border-radius: 10px;
             position: relative;
-            margin: 15px;
+            margin: 10px;
+            overflow: hidden;
         }
         .photo img{
             width: 100%;
@@ -36,7 +37,7 @@
         .photo-detail{
             display: none;
             position: absolute;
-            width: 280px;
+            width: 330px;
             top: 0;
             padding: 0 10px;
         }
@@ -48,8 +49,11 @@
             display: block;
             background-color: hsla(240, 1%, 79%, 0.658);
             height: 188px;
-            text-align: justify;
-            
+            text-align: justify; 
+        }
+        .photo-frame:hover .photo{
+            transform: scale(120%) skew(23deg);
+            transition: transform 2s;
         }
     </style>
 </head>
