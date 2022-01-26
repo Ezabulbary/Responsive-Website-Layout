@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Explore</title>
+    <style>
+        .wrapper1 {
+            width: 500px;
+            background-color: antiquewhite;
+            border: 3px solid #fa0000;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .wrapper1 > div {
+            border: 3px solid #ff0000;
+            flex: 1 1 150px;
+        }
+        
+        .wrapper2 {
+            background-color: gold;
+            border: 3px solid green;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+        }
+        .wrapper2 > div{
+            border: 2px solid green;
+        }
+    </style>
+</head>
+<body>
+    <h1>I am Exploring Flex</h1>
+    <div class="wrapper1">
+        <div>One</div>
+        <div>Two</div>
+        <div>Three</div>
+        <div>Four</div>
+        <div>Five</div>
+    </div>
+
+    <h1>I am Exploring Grid</h1>
+    <div class="wrapper2">
+        <div>One</div>
+        <div>Two</div>
+        <div>Three</div>
+        <div>Four</div>
+        <div>Five</div>
+    </div>
+</body>
+</html>
