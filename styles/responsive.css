@@ -10,6 +10,7 @@ h1{
 .menu-containar{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .food{
     border: 3px solid #343f23;
@@ -21,6 +22,12 @@ h1{
     width: 300px;
 }
 
-@media (max-width:768px) {
-
-}
+/* @media (min-width:480px) and (max-width:768px) {
+    h1{
+        text-align: center;
+        font-weight: 800;
+    }
+    .food{
+        background-color: greenyellow;
+    }
+} */
